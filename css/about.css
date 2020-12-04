@@ -213,22 +213,22 @@ header {
 }
 
 #card1 {
-    border: solid black 1px;
-    border-style: none none dashed;
+	border: solid black 1px;
+	border-style: none none dashed;
 }
 
 #card2 {
-    border: solid black 1px;
+	border: solid black 1px;
 	border-style: none none dashed;
 }
 
 #card3 {
-    border: solid black 1px;
+	border: solid black 1px;
 	border-style: none none dashed;
 }
 
 #card4 {
-    border: solid black 1px;
+	border: solid black 1px;
 	border-style: none none dashed;
 }
 
@@ -246,8 +246,8 @@ span {
 	color: black;
 	width: 8rem;
 	padding: 0.5rem;
-    margin-top: 0.75rem;
-    margin-bottom: 1rem;
+	margin-top: 0.75rem;
+	margin-bottom: 1rem;
 }
 
 /* Footer Section */
