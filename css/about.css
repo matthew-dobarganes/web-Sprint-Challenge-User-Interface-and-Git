@@ -158,6 +158,8 @@ p {
 	margin: 0 auto;
 }
 
+/* Navigation bar */
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -172,9 +174,13 @@ nav a {
 	font-weight: bold;
 }
 
+/* Banner Image */
+
 header {
 	margin: 0 0 1.5rem 0;
 }
+
+/* Main body of page, including image modules */
 
 .about-page {
 	/* border: solid red; */
@@ -201,12 +207,31 @@ header {
 }
 
 .card {
-	border: solid black 1px;
-	border-style: none none dashed;
 	padding: 1rem;
 	width: 50%;
 	font-weight: bold;
 }
+
+#card1 {
+    border: solid black 1px;
+    border-style: none none dashed;
+}
+
+#card2 {
+    border: solid black 1px;
+	border-style: none none dashed;
+}
+
+#card3 {
+    border: solid black 1px;
+	border-style: none none dashed;
+}
+
+#card4 {
+    border: solid black 1px;
+	border-style: none none dashed;
+}
+
 .card h3,
 span {
 	margin-top: 0.75rem;
@@ -221,8 +246,11 @@ span {
 	color: black;
 	width: 8rem;
 	padding: 0.5rem;
-	margin-top: 0.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
 }
+
+/* Footer Section */
 
 footer {
 	width: 100%;
