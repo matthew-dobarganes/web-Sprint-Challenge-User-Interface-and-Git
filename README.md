@@ -34,21 +34,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    A: Semantic HTML is how other web developers and the browser reads your code and knows what is what. For example, the browser will recognize the div of <nav></nav> as the navigation bar.
+
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    A: The big differences between "display: block" and "display: inline" is that block level elements stack on top of one another and can be given height and width specifications. Inline elements, however, take up their entire line and do not react to size changes in an intuitive manner.
+
+
 
 3. What are the 4 areas of the box model?
 
+    A: In order from the innermost area to the outer area the 4 areas of the box model are as follows: content, padding, border, margin.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    A: If the flex-direction assigned is row then the "align-items: center" property will align items with the vertical center of the module, this is the default. If the flex-direction is assigned the column attribute then it will be aligned with the horizontal center. (Note for Team Lead: I do not remember the exact terminology, I do remember that the horizontal axis on the flew-direction: row is called the main-axis. For integrity purposes I did not return to the image posted in Slack for the name of the vertical axis. I'm hoping I don't get points taken away for not knowing the technical term, but in the end its a gamble for me)
+
+
+
 5. Explain why git is valuable to a team of developers.
+
+    A: Git is valuable to a team of developers because it allows them to work on the same source code without changing the source code for their team members. And if changes are made to the source that eventually breaks the code, they can use the version control system Git provides them with to return to a stable version of the code and debug the issue.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
