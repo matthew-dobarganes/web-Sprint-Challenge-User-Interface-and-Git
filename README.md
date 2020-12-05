@@ -1,7 +1,9 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 Hosted URL: https://matthew-dobarganes.github.io/web-Sprint-Challenge-User-Interface-and-Git/.
+
 Screenshot of project:
+
 ![image](https://user-images.githubusercontent.com/75202459/101233335-20476700-3686-11eb-8f2e-2f6da34971c5.png)
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
