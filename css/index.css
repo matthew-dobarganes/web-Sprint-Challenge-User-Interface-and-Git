@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Code starts here! */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,24 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin: 1.75rem 4.25rem 4.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header {
+    margin: 0 0 1.5rem 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +103,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    font-weight: bold;
 }
 
 .middle-content {
@@ -93,6 +114,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .middle-content .boxes {
@@ -112,6 +134,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -120,6 +182,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: bold;
 }
 
 .bottom-content .text-container:last-child {
